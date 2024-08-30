@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 330px;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.Pagelogo img {
+    width: 188px;
+    align-content: center;
+}
+
+header nav div {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.navicons img {
+    width: 26px;
+}
+
+.section1 {
+    background: url(./assets/assets/header_img.png)no-repeat;
+    background-size: cover;
+    margin: 15px 150px;
+    margin-bottom: 0;
+    background-size: 1230px;
+    height: 522px;
+    color: white;
+
+}
+
+.section1 div {
+    padding-top: 135px;
+    padding-left: 95px;
+}
+
+.section1 div p {
+    padding-right: 420px;
+    font-size: 15px;
+}
+
+.section1 div span h1 {
+    font-size: 65px;
+    font-weight: 500;
+}
+
+.section1 button {
+    background-color: white;
+    border-radius: 35px;
+    padding: 8px 30px;
+    margin-left: 105px;
+    margin-top: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.section1 button:hover {
+    color: white;
+    background-color: darkorange;
+    transition: .3s;
+    transform: scale(1.1);
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 150px;
+    font-size: 18px;
+    gap: 10px;
+}
+
+.section2 p {
+    color: grey;
+    font-weight: 300;
+    font-size: 15px;
+    padding-right: 420px;
+}
+
+.menu-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.menu-img a {
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.menu-img a:hover {
+    color: black;
+    filter: drop-shadow(0px 5px 5px #110d02);
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+.menu-img a img {
+    width: 110px;
+}
+
+.seperation {
+    background-color: rgb(192, 191, 191);
+    height: 1.5px;
+    margin-top: 25px;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 150px;
+}
+.section3 div h1{
+    margin-top: 15px;
+}
+.dishes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.dishes div{
+    width: 275px;
+    border-radius: 25px;
+    box-shadow:0px -1px 3px #110d02;
+}
+.dishes div:hover{
+    transition: .3s;
+    transform: scale(1.1);
+
+}
+.dishes div a{
+    display: inline-block;
+    width: 100%;
+}
+.dishes div p{
+    font-size: 13px;
+    margin-left: 9px;
+}
+.dishes div img{
+    border-radius: 25px;
+    width: 100%;
+}
+.dishes div h3{
+    color: rgb(207, 122, 18);
+    margin-left: 9px;
+}
+.rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rating h2{
+    margin-left: 7px;
+}
+.rating p{
+    display: flex;
+    align-items: center;
+}
+.section4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+.section4 div a img:hover{ 
+    transition: .3s;
+    transform: scale(1.1);
+}
+.section4 article{
+    align-items: center;
+}
+footer{
+    background-color: #110d02;
+    height: 400px;
+}
+.footer{
+    background-color: #110d02;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer div{
+    padding: 125px;
+    padding-bottom: 10;
+}
+.footer div ul{
+    list-style: none;
+}
+.footer div ul li a{
+    color: grey;
+    text-decoration: none;
+}
+.footer div a img:hover{
+    transition: .3s;
+    transform: scale(1.1);
+}
+.footer div ul li a:hover{
+    transition: .3s;
+    transform: scale(1.1);
+}
+
+.seperation2{
+    background-color:white;
+    height: 3px;
+    margin: 15px 150px;
+}
+
+.section5 .table div{
+    display: flex;
+    padding-left: 140px;
+    margin-top: 20px;
+    color: grey;
+    align-items: center;
+}
+.section5 .table{
+    border: black;
+}
+.section5 .table .object div img{
+    display: flex;
+    width: 45px;
+    height: 35px;
+
+}
