@@ -258,4 +258,9 @@ footer{
     flex-direction: column;
     gap: 15px;
     align-items: center;
+    
+}
+.section6{
+    margin-top: 350px;
+    padding-bottom: 10;
 }
