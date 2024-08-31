@@ -239,19 +239,23 @@ footer{
     margin: 15px 150px;
 }
 
-.section5 .table div{
+.section5 .table{
     display: flex;
-    padding-left: 140px;
-    margin-top: 20px;
+    flex-direction: row;
+    justify-content: space-around;
     color: grey;
     align-items: center;
+    
 }
-.section5 .table{
-    border: black;
-}
-.section5 .table .object div img{
+.table div img{
     display: flex;
     width: 45px;
     height: 35px;
 
+}
+.crafted{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
 }
