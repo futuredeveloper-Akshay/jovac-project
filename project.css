@@ -245,6 +245,7 @@ footer{
     justify-content: space-around;
     color: grey;
     align-items: center;
+    margin-top: 50px;
     
 }
 .table div img{
@@ -261,6 +262,47 @@ footer{
     
 }
 .section6{
-    margin-top: 350px;
+    margin-top: 80px;
+    margin-left: 95px;
+
+}
+.section6 .total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: grey;
+    margin-left: -930px;
+    margin-top: 10px;
+    
+      
+}
+.bill{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+.bill2{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: -1500px;
+}
+.section6 button{
+    background-color: rgb(255, 208, 121);
+    border-radius: 10px;
+    padding: 8px 30px;
+    margin-top: 25px;
+    margin-left: -10px;
+}
+.section6 button:hover {
+    color: white;
+    background-color: darkorange;
+    transition: .3s;
+    transform: scale(1.1);
+}
+
+.section7{
+    margin-top: 100px;
     padding-bottom: 10;
 }
